@@ -14,7 +14,7 @@ Then, the following modifications have been made:
 * Service ingress-nginx commented
 * `ingress-nginx-controller` type changed from Deployment to DaemonSet
 * In `ingress-nginx-controller` DaemonSet commented replicas field
-
+* In `ingress-nginx-controller` DaemonSet commented --publish-service argument.
 
 ## Utilization: 
 ```
