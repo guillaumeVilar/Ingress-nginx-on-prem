@@ -372,6 +372,7 @@ spec:
                 - /wait-shutdown
           args: 
             - /nginx-ingress-controller
+            # TODO: Removed publish-service as the service has been removed.
             # - --publish-service=$(POD_NAMESPACE)/ingress-nginx-controller
             - --election-id=ingress-nginx-leader
             - --controller-class=k8s.io/ingress-nginx
